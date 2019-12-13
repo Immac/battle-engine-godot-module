@@ -10,9 +10,9 @@ class GDExample : public Sprite {
     GODOT_CLASS(GDExample, Sprite)
 
    private:
-    float time_passed;
-    float amplitude;
-    float speed;
+    float time_passed_;
+    float amplitude_;
+    float speed_;
 
    public:
     static void _register_methods();
