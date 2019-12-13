@@ -11,6 +11,7 @@ class GDExample : public Sprite {
 
    private:
     float time_passed;
+    float amplitude;
 
    public:
     static void _register_methods();
