@@ -5,18 +5,24 @@
 #include <Sprite.hpp>
 
 namespace godot {
-class GdExample : public Sprite {
-    GODOT_CLASS(GdExample, Sprite)
+
+class GDExample : public Sprite {
+    GODOT_CLASS(GDExample, Sprite)
+
    private:
     float time_passed;
 
    public:
     static void _register_methods();
-    GdExample();
-    ~GdExample();
-    void _init();
+
+    GDExample();
+    ~GDExample();
+
+    void _init();  // our initializer called by Godot
+
     void _process(float delta);
 };
+
 }  // namespace godot
 
-#endif  // GDEXAMPLE_H
+#endif
