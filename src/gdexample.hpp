@@ -12,6 +12,7 @@ class GDExample : public Sprite {
    private:
     float time_passed;
     float amplitude;
+    float speed;
 
    public:
     static void _register_methods();
@@ -22,6 +23,8 @@ class GDExample : public Sprite {
     void _init();  // our initializer called by Godot
 
     void _process(float delta);
+    void set_speed(float value);
+    float get_speed();
 };
 
 }  // namespace godot

@@ -9,4 +9,5 @@
 texture = ExtResource( 1 )
 centered = false
 script = ExtResource( 2 )
-amplitude_hello = 25.0
+amplitude_hello = 20.0
+speed_test = 5.0
