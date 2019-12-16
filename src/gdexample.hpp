@@ -25,7 +25,7 @@ class GDExample : public Sprite {
     void _process(float delta);
     void set_speed(float value);
     float get_speed();
-};
+};  // GDExample
 
 }  // namespace godot
 

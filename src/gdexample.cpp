@@ -9,10 +9,14 @@ void GDExample::_register_methods() {
 }
 
 GDExample::GDExample() {
+    Dictionary a;
+    Variant v;
+    a[v] = v;
+    // Empty
 }
 
 GDExample::~GDExample() {
-    // add your cleanup here
+    // Empty
 }
 
 void GDExample::_init() {
