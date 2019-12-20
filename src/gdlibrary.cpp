@@ -13,4 +13,6 @@ extern "C" void GDN_EXPORT godot_nativescript_init(void *handle) {
 
     godot::register_class<godot::GDExample>();
     godot::register_class<godot::Attribute>();
+    godot::register_class<godot::StringAttribute>();
+    godot::register_class<godot::NumberAttribute>();
 }
